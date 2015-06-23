@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UIScrollView-Keyboard: 29505742ebd1e4491899d36efc8462fc35de6f34
+  UIScrollView-Keyboard: 1d577a50f01c835d21cacf2c82c76c2e3ed1eb7a
 
 COCOAPODS: 0.37.2

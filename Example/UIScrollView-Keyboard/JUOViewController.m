@@ -7,8 +7,11 @@
 //
 
 #import "JUOViewController.h"
+#import <UIScrollView_Keyboard/UIScrollView+Keyboard.h>
 
 @interface JUOViewController ()
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -16,14 +19,25 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[super viewDidLoad];
+	
+	[self.scrollView dismissKeyboardWithTap];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	
+	[self.scrollView startObservingKeyboardNotifications];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+	
+	[self.scrollView stopObservingKeyboardNotifications];
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	[super didReceiveMemoryWarning];
+	// Dispose of any resources that can be recreated.
 }
 
 @end

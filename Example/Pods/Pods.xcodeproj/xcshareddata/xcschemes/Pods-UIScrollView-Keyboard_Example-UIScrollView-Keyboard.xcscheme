@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "838E83A0C54515099FCD2C14"
+               BlueprintIdentifier = "E581E26DC147672952CBF1A8"
                BuildableName = "UIScrollView_Keyboard.framework"
                BlueprintName = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard"
                ReferencedContainer = "container:Pods.xcodeproj">

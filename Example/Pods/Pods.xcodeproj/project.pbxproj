@@ -7,144 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E687A264B6B4B308EC8A8F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B183FC3C9EAFA9EDBE9979 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01635756C75E90729C83A891 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70228C34978DA96981B63B4 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */; };
-		1DB3D446AD527F31F1E40A9F /* Pods-UIScrollView-Keyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDEA329D69909486048C42A /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BF92A767F3A25DEF13C49F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE1A7B43C69E7E296EFD02 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */; };
-		44B6027A36D894DFC5861B4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */; };
-		53C9190099B568DC4F725341 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7BBCFD7DA609EAEEAEE3E /* ReplaceMe.m */; };
-		5F0EC2233F2D61F1FAF1555F /* UIScrollView-Keyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4613C2D53C46F44F2F09F40F /* UIScrollView-Keyboard.bundle */; };
-		6EDE9FA8F2B417BA87E3348F /* Pods-UIScrollView-Keyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611FCE73A2E505B4DEC37125 /* Pods-UIScrollView-Keyboard_Example-dummy.m */; };
-		705EDF0ACD8430A1161A7E24 /* Pods-UIScrollView-Keyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7AE06B837192607EC25E38 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */; };
-		7E67DB029C59B1D350708A0E /* Pods-UIScrollView-Keyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680D76415B5D7BD41424FB3B /* Pods-UIScrollView-Keyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941B36EBBFE3C2C622880F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */; };
-		A22B63B8D99897DC5B536002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */; };
-		B1B4FFC17704FCDC048DD5A7 /* UIScrollView-Keyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B5732A88A9C5C09DFFCFF /* UIScrollView-Keyboard.bundle */; };
-		B4FCE028B963D304960606E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */; };
-		DA5B60D6B1F5779E64AAF4BE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7BBCFD7DA609EAEEAEE3E /* ReplaceMe.m */; };
-		DFE77A543968E6A19B102AFD /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0716B4AD6743520EA35EEB /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052C9ADA261416FE22C168A9 /* UIScrollView+Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8865826C99F6D0D0B3D9952B /* UIScrollView+Keyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14992625AC32D0433792030B /* UIScrollView-Keyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC26D0387FCD9D6BD8451914 /* UIScrollView-Keyboard.bundle */; };
+		19E1D752E1D377A4D6475CB7 /* Pods-UIScrollView-Keyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF469F1765BDC7A51E9929 /* Pods-UIScrollView-Keyboard_Example-dummy.m */; };
+		1F37B4A554184D56718DFB46 /* UIScrollView+Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8865826C99F6D0D0B3D9952B /* UIScrollView+Keyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8B39E2139071701F3E054F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */; };
+		3D925740C8502D1B7F9C8FF0 /* Pods-UIScrollView-Keyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E1F60666EC1C8227B80903 /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC0ECE4F6FB1CBEF38E6023 /* UIScrollView-Keyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5D7F43F53EEBBA7663F476F /* UIScrollView-Keyboard.bundle */; };
+		837E6E4EDA91624904FDE451 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5236FDC93523635F45C60389 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48626D26CD7FAFFE157CC55 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88CB7161480BC2392859481 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD1F8DC78C0070E16CB3CAA5 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A621CF371CCA91863DE6A70F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */; };
+		AE4E3C2B4BC430ECD65E042D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */; };
+		B64FE4D8570D996A911EB0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */; };
+		D7619A9D73CF43A017742C39 /* UIScrollView+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E3AE9765A12152628F62A /* UIScrollView+Keyboard.m */; };
+		DA413F3FD04925B578EB0F9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */; };
+		DAE99912C212E84E1C7D6384 /* Pods-UIScrollView-Keyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D8655A4C803A91DC9CE51D /* Pods-UIScrollView-Keyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF293C7F325BB8F11D0251D7 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EA2E1AC06E2913AE45016 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */; };
+		E20A6A9ABCB19496BAEE0AD1 /* UIScrollView+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E3AE9765A12152628F62A /* UIScrollView+Keyboard.m */; };
+		F654A7413AF65748ED9E5525 /* Pods-UIScrollView-Keyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE3B0C5592F76AC40A0E95 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1422025D636D084A051CCE1B /* PBXContainerItemProxy */ = {
+		43EF2FD6A99E221D10FDBB03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 122859CF1E717614F9BB5747 /* Project object */;
+			containerPortal = 76B4C3C7D053F0D3F8FF78B8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 838E83A0C54515099FCD2C14;
-			remoteInfo = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
+			remoteGlobalIDString = 14EC5BEDFCA59EC4CA4D27CF;
+			remoteInfo = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard";
 		};
-		A9062D5E94AE2744F25CCD61 /* PBXContainerItemProxy */ = {
+		93656347F38E90C82D87506F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 122859CF1E717614F9BB5747 /* Project object */;
+			containerPortal = 76B4C3C7D053F0D3F8FF78B8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1341D6C3BF2A7D51A93CCAE;
-			remoteInfo = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
-		};
-		E2E5B1269D926047C5490841 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 122859CF1E717614F9BB5747 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4BF727B6CF69AF9F60164CF;
+			remoteGlobalIDString = 3796C9E55DB0ABF71E284E38;
 			remoteInfo = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
 		};
-		EECF246B9583A7EB1515DADC /* PBXContainerItemProxy */ = {
+		AD79C8F288574815C74438FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 122859CF1E717614F9BB5747 /* Project object */;
+			containerPortal = 76B4C3C7D053F0D3F8FF78B8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FBD1F0608911E0D3CC77736;
-			remoteInfo = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard";
+			remoteGlobalIDString = C035A7ED9B9EC0F4DD926D9F;
+			remoteInfo = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
+		};
+		FF087503975E67D5BF63A46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B4C3C7D053F0D3F8FF78B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E581E26DC147672952CBF1A8;
+			remoteInfo = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0540D92A7A1097F152B9425E /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0ACB7DCE003A849A4CB804B9 /* Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0DA3132AD537A77982453B52 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap"; sourceTree = "<group>"; };
-		0F9671489FA4487EA12202D1 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig"; sourceTree = "<group>"; };
-		1833A4B38A779820554C65E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Info.plist"; sourceTree = "<group>"; };
-		19C31D26641400CC9CBC3443 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig"; sourceTree = "<group>"; };
-		1B89DD6CA63BBF2A126EB4C4 /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E2B5732A88A9C5C09DFFCFF /* UIScrollView-Keyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView-Keyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CC3DAD838F1E22D26852EC /* UIScrollView_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScrollView_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig"; sourceTree = "<group>"; };
-		38F643759DE0AD9C00CBBB64 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch"; sourceTree = "<group>"; };
-		4613C2D53C46F44F2F09F40F /* UIScrollView-Keyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView-Keyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		473106322E26675EBF8A414D /* Pods-UIScrollView-Keyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		611FCE73A2E505B4DEC37125 /* Pods-UIScrollView-Keyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Example-dummy.m"; sourceTree = "<group>"; };
-		680D76415B5D7BD41424FB3B /* Pods-UIScrollView-Keyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-umbrella.h"; sourceTree = "<group>"; };
-		6AAC50226F98691D5CB60F38 /* Pods-UIScrollView-Keyboard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Tests-resources.sh"; sourceTree = "<group>"; };
-		6D56D5C7A0690A06EBCA0DCF /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6F67046986F847310DF79AFA /* Pods_UIScrollView_Keyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIScrollView_Keyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7135A9CAA2E47A07352C1D5C /* Pods-UIScrollView-Keyboard_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-environment.h"; sourceTree = "<group>"; };
-		72059A786A42C63918A380AB /* Pods-UIScrollView-Keyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Example.modulemap"; sourceTree = "<group>"; };
-		7834E02C5F209EF7FE4EC808 /* Pods-UIScrollView-Keyboard_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Tests-environment.h"; sourceTree = "<group>"; };
-		7EBAAC610AFD950AD9F18108 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88A573B7E24E97E9ED915F9B /* Pods-UIScrollView-Keyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Tests.modulemap"; sourceTree = "<group>"; };
-		8CD1D3FE9C6CBCE35DE3EDBD /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9108A5E35DEE7B40118ABA65 /* UIScrollView_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScrollView_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		952703012EE2976FC37C9D7A /* Pods-UIScrollView-Keyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9C0716B4AD6743520EA35EEB /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h"; sourceTree = "<group>"; };
-		A8252E4DC4A462DD1810903C /* Pods-UIScrollView-Keyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIScrollView-Keyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFC77FC5774345D1DC414955 /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AFDE1A7B43C69E7E296EFD02 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m"; sourceTree = "<group>"; };
-		B0667510625CBCF08AAD0F22 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch"; sourceTree = "<group>"; };
-		BDDEA329D69909486048C42A /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BFB7BBCFD7DA609EAEEAEE3E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		C9FB9A11ECE5C9D641FDC06A /* Pods_UIScrollView_Keyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIScrollView_Keyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC7AE06B837192607EC25E38 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Tests-dummy.m"; sourceTree = "<group>"; };
-		D41849074F82D5D79B271C97 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D70228C34978DA96981B63B4 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m"; sourceTree = "<group>"; };
-		D93C338F0DD61EC594F79073 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap"; sourceTree = "<group>"; };
-		E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig"; sourceTree = "<group>"; };
-		EEB473C12BA0B848FDCA6A51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2B183FC3C9EAFA9EDBE9979 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h"; sourceTree = "<group>"; };
-		F5250D33314674796C694662 /* Pods-UIScrollView-Keyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Example-resources.sh"; sourceTree = "<group>"; };
-		F926294DC158EB64D99DC5E4 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FFFB62654FEFA2C24721E42A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022E3AE9765A12152628F62A /* UIScrollView+Keyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Keyboard.m"; sourceTree = "<group>"; };
+		05B462DD3B2D09443DA546E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0F52862E07BCE1992A394A /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig"; sourceTree = "<group>"; };
+		16982AE2291D26CD2D328260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAB29445FC368EF037124F6 /* UIScrollView_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScrollView_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD94389768003E176F97DC5 /* Pods-UIScrollView-Keyboard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Tests-resources.sh"; sourceTree = "<group>"; };
+		1D0092EF8D6CE26F36D80E6F /* Pods-UIScrollView-Keyboard_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Tests-environment.h"; sourceTree = "<group>"; };
+		1E4A7BA61D10E0DB340019A6 /* Pods-UIScrollView-Keyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIScrollView-Keyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F2A149BA46EB8E17DC0955B /* Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28E1F60666EC1C8227B80903 /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34D8655A4C803A91DC9CE51D /* Pods-UIScrollView-Keyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B4A1C22216E876EE017962C /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5236FDC93523635F45C60389 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h"; sourceTree = "<group>"; };
+		56D16EECF5ADBC98860D0748 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig"; sourceTree = "<group>"; };
+		5706143AFEDE5EA24DFD094E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FD08F3EF77EE1F0FB067464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Info.plist"; sourceTree = "<group>"; };
+		70EDAFC9FBCE39E261511F97 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap"; sourceTree = "<group>"; };
+		748DE8DD91A8E207F3B81FAA /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C993E36DE0906D5065FAE01 /* Pods-UIScrollView-Keyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Example-resources.sh"; sourceTree = "<group>"; };
+		7FFE3B0C5592F76AC40A0E95 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		8865826C99F6D0D0B3D9952B /* UIScrollView+Keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Keyboard.h"; sourceTree = "<group>"; };
+		8B2EA2E1AC06E2913AE45016 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m"; sourceTree = "<group>"; };
+		8D14FABBDF3D8B50FECECE17 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch"; sourceTree = "<group>"; };
+		8E5C0BF53A6EB0A183609F70 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig"; sourceTree = "<group>"; };
+		91E23E39AB5C01829C5E9C66 /* Pods-UIScrollView-Keyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Example.modulemap"; sourceTree = "<group>"; };
+		98DC87B9FC9CEAC20EED6871 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E1CA067A10070AA203426B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA748A8CDF0FA4CC600B580 /* Pods-UIScrollView-Keyboard_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-environment.h"; sourceTree = "<group>"; };
+		9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A48D91DF066E6AFC19B0AB35 /* Pods-UIScrollView-Keyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A4DC33F9DF616241A05B95E0 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch"; sourceTree = "<group>"; };
+		A621CF371CCA91863DE6A70F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m"; sourceTree = "<group>"; };
+		A88CB7161480BC2392859481 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h"; sourceTree = "<group>"; };
+		AC26D0387FCD9D6BD8451914 /* UIScrollView-Keyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView-Keyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3A14B894BBB132D6F4AD1B /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C00C0C3D8E1B6A583678CE8B /* Pods-UIScrollView-Keyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIScrollView-Keyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		C36D7FAEB9945D1E1BD333AD /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap"; path = "../Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap"; sourceTree = "<group>"; };
+		C36D8B33DA8AED18ED59C71C /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3FF469F1765BDC7A51E9929 /* Pods-UIScrollView-Keyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollView-Keyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		D5EDE41259D5738A118873D5 /* Pods_UIScrollView_Keyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIScrollView_Keyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E842E078F02F0D7BC3A7BA /* UIScrollView_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScrollView_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig"; sourceTree = "<group>"; };
+		F2C660C6D833F0FDFFF9978D /* Pods_UIScrollView_Keyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIScrollView_Keyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D7F43F53EEBBA7663F476F /* UIScrollView-Keyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView-Keyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE836BB96AF6B513E3DC32F1 /* Pods-UIScrollView-Keyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollView-Keyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68A58C3173DFC5C8B3F771AF /* Frameworks */ = {
+		06E43D4DAB03F5C8E4DE0175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4E3C2B4BC430ECD65E042D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19006097FAF96279273BE5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823DE2147A393FF6D700F1E7 /* Frameworks */ = {
+		729AF20A6DD66A00589E1A2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B6027A36D894DFC5861B4C /* Foundation.framework in Frameworks */,
+				B64FE4D8570D996A911EB0C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD91735A8AB38C81E6BA8341 /* Frameworks */ = {
+		B6CA130DBEFA64DA48768115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941B36EBBFE3C2C622880F35 /* Foundation.framework in Frameworks */,
+				DA413F3FD04925B578EB0F9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B524EF00E4B4D465824C86 /* Frameworks */ = {
+		CED2CFE7BCA679D7AF6EA813 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22B63B8D99897DC5B536002 /* Foundation.framework in Frameworks */,
+				3B8B39E2139071701F3E054F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F27AC6F0F3A4B055097BC74D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4FCE028B963D304960606E1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD79819F764A28D57851B2A2 /* Frameworks */ = {
+		DBE5C560B7D5F5A4A5B27118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,212 +157,197 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04956BF54C31008E9C9AD4D4 /* Classes */ = {
+		1483691E140CEF04CF63D7CE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7BBCFD7DA609EAEEAEE3E /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		10DE859FF769E50E836E47BD /* UIScrollView-Keyboard */ = {
-			isa = PBXGroup;
-			children = (
-				1CAF6FE4345C9088EA9AD7D9 /* Pod */,
-				9F18930BF7DCDC75740963B9 /* Support Files */,
-			);
-			name = "UIScrollView-Keyboard";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1CAF6FE4345C9088EA9AD7D9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				04956BF54C31008E9C9AD4D4 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		2CB40015379C7DECCB091FFE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10DE859FF769E50E836E47BD /* UIScrollView-Keyboard */,
+				2F0B5FDF6A1550162A3AC2AF /* UIScrollView-Keyboard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		871FEC99634DD0475CB10DAA /* Frameworks */ = {
+		1689B3FBF52F56253A32BD65 /* Pods-UIScrollView-Keyboard_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A78CC260E20F868F3E2C2F46 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8C475A294FD85162A0368623 /* Pods-UIScrollView-Keyboard_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7EBAAC610AFD950AD9F18108 /* Info.plist */,
-				88A573B7E24E97E9ED915F9B /* Pods-UIScrollView-Keyboard_Tests.modulemap */,
-				1B89DD6CA63BBF2A126EB4C4 /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown */,
-				8CD1D3FE9C6CBCE35DE3EDBD /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist */,
-				CC7AE06B837192607EC25E38 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */,
-				7834E02C5F209EF7FE4EC808 /* Pods-UIScrollView-Keyboard_Tests-environment.h */,
-				952703012EE2976FC37C9D7A /* Pods-UIScrollView-Keyboard_Tests-frameworks.sh */,
-				6AAC50226F98691D5CB60F38 /* Pods-UIScrollView-Keyboard_Tests-resources.sh */,
-				BDDEA329D69909486048C42A /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */,
-				F926294DC158EB64D99DC5E4 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */,
-				0540D92A7A1097F152B9425E /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */,
-			);
-			name = "Pods-UIScrollView-Keyboard_Tests";
-			path = "Target Support Files/Pods-UIScrollView-Keyboard_Tests";
-			sourceTree = "<group>";
-		};
-		9F18930BF7DCDC75740963B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFFB62654FEFA2C24721E42A /* Info.plist */,
-				1833A4B38A779820554C65E0 /* Info.plist */,
-				0DA3132AD537A77982453B52 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap */,
-				0F9671489FA4487EA12202D1 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig */,
-				37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */,
-				AFDE1A7B43C69E7E296EFD02 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */,
-				B0667510625CBCF08AAD0F22 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch */,
-				F2B183FC3C9EAFA9EDBE9979 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */,
-				D93C338F0DD61EC594F79073 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap */,
-				19C31D26641400CC9CBC3443 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig */,
-				E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */,
-				D70228C34978DA96981B63B4 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */,
-				38F643759DE0AD9C00CBBB64 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch */,
-				9C0716B4AD6743520EA35EEB /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
-			sourceTree = "<group>";
-		};
-		A3C9C8B3D64F473D0A27C40F = {
-			isa = PBXGroup;
-			children = (
-				D41849074F82D5D79B271C97 /* Podfile */,
-				2CB40015379C7DECCB091FFE /* Development Pods */,
-				871FEC99634DD0475CB10DAA /* Frameworks */,
-				C3589A326B9351EF96552045 /* Products */,
-				E579B48892E6660FA90B364E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A78CC260E20F868F3E2C2F46 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8FFDD708BF3CE6B15A169EE1 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BD3C91E7E9E43AE6A040985F /* Pods-UIScrollView-Keyboard_Example */ = {
-			isa = PBXGroup;
-			children = (
-				EEB473C12BA0B848FDCA6A51 /* Info.plist */,
-				72059A786A42C63918A380AB /* Pods-UIScrollView-Keyboard_Example.modulemap */,
-				0ACB7DCE003A849A4CB804B9 /* Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown */,
-				A8252E4DC4A462DD1810903C /* Pods-UIScrollView-Keyboard_Example-acknowledgements.plist */,
-				611FCE73A2E505B4DEC37125 /* Pods-UIScrollView-Keyboard_Example-dummy.m */,
-				7135A9CAA2E47A07352C1D5C /* Pods-UIScrollView-Keyboard_Example-environment.h */,
-				473106322E26675EBF8A414D /* Pods-UIScrollView-Keyboard_Example-frameworks.sh */,
-				F5250D33314674796C694662 /* Pods-UIScrollView-Keyboard_Example-resources.sh */,
-				680D76415B5D7BD41424FB3B /* Pods-UIScrollView-Keyboard_Example-umbrella.h */,
-				6D56D5C7A0690A06EBCA0DCF /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */,
-				AFC77FC5774345D1DC414955 /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */,
+				05B462DD3B2D09443DA546E2 /* Info.plist */,
+				91E23E39AB5C01829C5E9C66 /* Pods-UIScrollView-Keyboard_Example.modulemap */,
+				1F2A149BA46EB8E17DC0955B /* Pods-UIScrollView-Keyboard_Example-acknowledgements.markdown */,
+				1E4A7BA61D10E0DB340019A6 /* Pods-UIScrollView-Keyboard_Example-acknowledgements.plist */,
+				C3FF469F1765BDC7A51E9929 /* Pods-UIScrollView-Keyboard_Example-dummy.m */,
+				9AA748A8CDF0FA4CC600B580 /* Pods-UIScrollView-Keyboard_Example-environment.h */,
+				FE836BB96AF6B513E3DC32F1 /* Pods-UIScrollView-Keyboard_Example-frameworks.sh */,
+				7C993E36DE0906D5065FAE01 /* Pods-UIScrollView-Keyboard_Example-resources.sh */,
+				34D8655A4C803A91DC9CE51D /* Pods-UIScrollView-Keyboard_Example-umbrella.h */,
+				748DE8DD91A8E207F3B81FAA /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */,
+				0F0F52862E07BCE1992A394A /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */,
 			);
 			name = "Pods-UIScrollView-Keyboard_Example";
 			path = "Target Support Files/Pods-UIScrollView-Keyboard_Example";
 			sourceTree = "<group>";
 		};
-		C3589A326B9351EF96552045 /* Products */ = {
+		29C6DBBBCA88A9B1CEA198DD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C9FB9A11ECE5C9D641FDC06A /* Pods_UIScrollView_Keyboard_Example.framework */,
-				6F67046986F847310DF79AFA /* Pods_UIScrollView_Keyboard_Tests.framework */,
-				4613C2D53C46F44F2F09F40F /* UIScrollView-Keyboard.bundle */,
-				1E2B5732A88A9C5C09DFFCFF /* UIScrollView-Keyboard.bundle */,
-				9108A5E35DEE7B40118ABA65 /* UIScrollView_Keyboard.framework */,
-				21CC3DAD838F1E22D26852EC /* UIScrollView_Keyboard.framework */,
+				9D25FE64444DEC0B3F0BAF09 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F0B5FDF6A1550162A3AC2AF /* UIScrollView-Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF90510AA13D77B844F3D9 /* Pod */,
+				58089DAABDCE50FE6A7E2F3F /* Support Files */,
+			);
+			name = "UIScrollView-Keyboard";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3909D05678388E95BC7C516F /* Pods-UIScrollView-Keyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98E1CA067A10070AA203426B /* Info.plist */,
+				C00C0C3D8E1B6A583678CE8B /* Pods-UIScrollView-Keyboard_Tests.modulemap */,
+				BD3A14B894BBB132D6F4AD1B /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.markdown */,
+				C36D8B33DA8AED18ED59C71C /* Pods-UIScrollView-Keyboard_Tests-acknowledgements.plist */,
+				7FFE3B0C5592F76AC40A0E95 /* Pods-UIScrollView-Keyboard_Tests-dummy.m */,
+				1D0092EF8D6CE26F36D80E6F /* Pods-UIScrollView-Keyboard_Tests-environment.h */,
+				A48D91DF066E6AFC19B0AB35 /* Pods-UIScrollView-Keyboard_Tests-frameworks.sh */,
+				1CD94389768003E176F97DC5 /* Pods-UIScrollView-Keyboard_Tests-resources.sh */,
+				28E1F60666EC1C8227B80903 /* Pods-UIScrollView-Keyboard_Tests-umbrella.h */,
+				98DC87B9FC9CEAC20EED6871 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */,
+				3B4A1C22216E876EE017962C /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIScrollView-Keyboard_Tests";
+			path = "Target Support Files/Pods-UIScrollView-Keyboard_Tests";
+			sourceTree = "<group>";
+		};
+		45E4A9759AF1C4E3AE2CC6AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8865826C99F6D0D0B3D9952B /* UIScrollView+Keyboard.h */,
+				022E3AE9765A12152628F62A /* UIScrollView+Keyboard.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48F347073A43A73ABCE5B29F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C6DBBBCA88A9B1CEA198DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BD6D61503998E0F162D837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDE41259D5738A118873D5 /* Pods_UIScrollView_Keyboard_Example.framework */,
+				F2C660C6D833F0FDFFF9978D /* Pods_UIScrollView_Keyboard_Tests.framework */,
+				F5D7F43F53EEBBA7663F476F /* UIScrollView-Keyboard.bundle */,
+				AC26D0387FCD9D6BD8451914 /* UIScrollView-Keyboard.bundle */,
+				1BAB29445FC368EF037124F6 /* UIScrollView_Keyboard.framework */,
+				D8E842E078F02F0D7BC3A7BA /* UIScrollView_Keyboard.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E579B48892E6660FA90B364E /* Targets Support Files */ = {
+		58089DAABDCE50FE6A7E2F3F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD3C91E7E9E43AE6A040985F /* Pods-UIScrollView-Keyboard_Example */,
-				8C475A294FD85162A0368623 /* Pods-UIScrollView-Keyboard_Tests */,
+				16982AE2291D26CD2D328260 /* Info.plist */,
+				5FD08F3EF77EE1F0FB067464 /* Info.plist */,
+				70EDAFC9FBCE39E261511F97 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap */,
+				8E5C0BF53A6EB0A183609F70 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.xcconfig */,
+				E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */,
+				A621CF371CCA91863DE6A70F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m */,
+				A4DC33F9DF616241A05B95E0 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch */,
+				5236FDC93523635F45C60389 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h */,
+				C36D7FAEB9945D1E1BD333AD /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap */,
+				56D16EECF5ADBC98860D0748 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.xcconfig */,
+				131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */,
+				8B2EA2E1AC06E2913AE45016 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m */,
+				8D14FABBDF3D8B50FECECE17 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch */,
+				A88CB7161480BC2392859481 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
+			sourceTree = "<group>";
+		};
+		7356B8CAFE637547BE25DD3F = {
+			isa = PBXGroup;
+			children = (
+				5706143AFEDE5EA24DFD094E /* Podfile */,
+				1483691E140CEF04CF63D7CE /* Development Pods */,
+				48F347073A43A73ABCE5B29F /* Frameworks */,
+				52BD6D61503998E0F162D837 /* Products */,
+				E5D529DB2CAEC9B7B093C8CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5D529DB2CAEC9B7B093C8CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1689B3FBF52F56253A32BD65 /* Pods-UIScrollView-Keyboard_Example */,
+				3909D05678388E95BC7C516F /* Pods-UIScrollView-Keyboard_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4BF90510AA13D77B844F3D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45E4A9759AF1C4E3AE2CC6AC /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27493E42759797AADA19B525 /* Headers */ = {
+		30D680E9F8032ED9139FA92E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E687A264B6B4B308EC8A8F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h in Headers */,
+				A48626D26CD7FAFFE157CC55 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h in Headers */,
+				1F37B4A554184D56718DFB46 /* UIScrollView+Keyboard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F66B5C282B7523C7A26D40A /* Headers */ = {
+		5407C6B9A20E40C87ED6A93F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE77A543968E6A19B102AFD /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h in Headers */,
+				3D925740C8502D1B7F9C8FF0 /* Pods-UIScrollView-Keyboard_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8CF565A62C8225EFDB7C12D /* Headers */ = {
+		6EB43F5965054307FA02D1E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E67DB029C59B1D350708A0E /* Pods-UIScrollView-Keyboard_Example-umbrella.h in Headers */,
+				837E6E4EDA91624904FDE451 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-umbrella.h in Headers */,
+				052C9ADA261416FE22C168A9 /* UIScrollView+Keyboard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B7BFE3C8E2628C30A4A331 /* Headers */ = {
+		F15ED033AEE818E6C2E3FB03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB3D446AD527F31F1E40A9F /* Pods-UIScrollView-Keyboard_Tests-umbrella.h in Headers */,
+				DAE99912C212E84E1C7D6384 /* Pods-UIScrollView-Keyboard_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E00979751AF51FB4CCF0B52 /* Pods-UIScrollView-Keyboard_Example */ = {
+		14EC5BEDFCA59EC4CA4D27CF /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68A461681AFF24BD1E9407DC /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example" */;
+			buildConfigurationList = 4A41A446DADD173CC856AEAB /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard" */;
 			buildPhases = (
-				8463EFBCD51B21E4E157E1FD /* Sources */,
-				AD91735A8AB38C81E6BA8341 /* Frameworks */,
-				A8CF565A62C8225EFDB7C12D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				996898E45FE14CE5838B7C06 /* PBXTargetDependency */,
-			);
-			name = "Pods-UIScrollView-Keyboard_Example";
-			productName = "Pods-UIScrollView-Keyboard_Example";
-			productReference = C9FB9A11ECE5C9D641FDC06A /* Pods_UIScrollView_Keyboard_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1FBD1F0608911E0D3CC77736 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3272A2E2E8266F281496DFE /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard" */;
-			buildPhases = (
-				6FC9F75357E59E3B7EED697E /* Sources */,
-				FD79819F764A28D57851B2A2 /* Frameworks */,
-				62E8E1E7E9348B71FF1455E7 /* Resources */,
+				6ECBA17D880EB94CF189BB1C /* Sources */,
+				19006097FAF96279273BE5E6 /* Frameworks */,
+				B4245F6ECCA83E68BF6BF323 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,53 +355,53 @@
 			);
 			name = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard";
 			productName = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard";
-			productReference = 4613C2D53C46F44F2F09F40F /* UIScrollView-Keyboard.bundle */;
+			productReference = F5D7F43F53EEBBA7663F476F /* UIScrollView-Keyboard.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		838E83A0C54515099FCD2C14 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */ = {
+		1E83DC37835109A3271385C9 /* Pods-UIScrollView-Keyboard_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF5628A277080F68758618CC /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard" */;
+			buildConfigurationList = 0B069652166DEE77AAE0076E /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example" */;
 			buildPhases = (
-				91549F792142BE53E108BEE6 /* Sources */,
-				E2B524EF00E4B4D465824C86 /* Frameworks */,
-				D8A0D2F09E8C76512CC925A1 /* Resources */,
-				27493E42759797AADA19B525 /* Headers */,
+				2EF9F668EA919EEC599B6A8A /* Sources */,
+				729AF20A6DD66A00589E1A2A /* Frameworks */,
+				F15ED033AEE818E6C2E3FB03 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EEC950641ACC2C8CBC180A7B /* PBXTargetDependency */,
+				5B22D97CFC44FA2B2A384B15 /* PBXTargetDependency */,
 			);
-			name = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
-			productName = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
-			productReference = 21CC3DAD838F1E22D26852EC /* UIScrollView_Keyboard.framework */;
+			name = "Pods-UIScrollView-Keyboard_Example";
+			productName = "Pods-UIScrollView-Keyboard_Example";
+			productReference = D5EDE41259D5738A118873D5 /* Pods_UIScrollView_Keyboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		95AF6B05F14A172650B3849B /* Pods-UIScrollView-Keyboard_Tests */ = {
+		3796C9E55DB0ABF71E284E38 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BEA432A46C2397989A41649 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests" */;
+			buildConfigurationList = DAE028C5CD7B84CAECF54AC1 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard" */;
 			buildPhases = (
-				7645132275BDC68372904773 /* Sources */,
-				F27AC6F0F3A4B055097BC74D /* Frameworks */,
-				C8B7BFE3C8E2628C30A4A331 /* Headers */,
+				B853AE4473CF7CFD3FBFB390 /* Sources */,
+				CED2CFE7BCA679D7AF6EA813 /* Frameworks */,
+				2173BE2182F0B4BDD6DA6C82 /* Resources */,
+				30D680E9F8032ED9139FA92E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				681BC473F0DAE66579E674C9 /* PBXTargetDependency */,
+				CAC387C42677955D8BCEF3CC /* PBXTargetDependency */,
 			);
-			name = "Pods-UIScrollView-Keyboard_Tests";
-			productName = "Pods-UIScrollView-Keyboard_Tests";
-			productReference = 6F67046986F847310DF79AFA /* Pods_UIScrollView_Keyboard_Tests.framework */;
+			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
+			productName = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
+			productReference = 1BAB29445FC368EF037124F6 /* UIScrollView_Keyboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A1341D6C3BF2A7D51A93CCAE /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */ = {
+		C035A7ED9B9EC0F4DD926D9F /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98228E30CBF2E25D12FACA02 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard" */;
+			buildConfigurationList = 020BD543A18C3E0267F5F96E /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard" */;
 			buildPhases = (
-				B50E80EF473D1DF698E575D9 /* Sources */,
-				68A58C3173DFC5C8B3F771AF /* Frameworks */,
-				7E96D47E05F51C3073A7FB24 /* Resources */,
+				E6197BD70C0FEF16BFB6E716 /* Sources */,
+				DBE5C560B7D5F5A4A5B27118 /* Frameworks */,
+				726D33E89C0CAAFAEABA5B13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -421,134 +409,152 @@
 			);
 			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
 			productName = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
-			productReference = 1E2B5732A88A9C5C09DFFCFF /* UIScrollView-Keyboard.bundle */;
+			productReference = AC26D0387FCD9D6BD8451914 /* UIScrollView-Keyboard.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		B4BF727B6CF69AF9F60164CF /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */ = {
+		DC6D7C09733090C99CA00231 /* Pods-UIScrollView-Keyboard_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C579C4EF11A6B6093E296D7 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard" */;
+			buildConfigurationList = 20FE718AB2EA5B77B7937E9A /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests" */;
 			buildPhases = (
-				408308AEB5F4AB0AA4B436AD /* Sources */,
-				823DE2147A393FF6D700F1E7 /* Frameworks */,
-				ACCC1352BC7CBB9694C2B7D5 /* Resources */,
-				3F66B5C282B7523C7A26D40A /* Headers */,
+				BA2A69B9C70F9ADC619167B6 /* Sources */,
+				B6CA130DBEFA64DA48768115 /* Frameworks */,
+				5407C6B9A20E40C87ED6A93F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				41E51D1401A77158DC7B65DD /* PBXTargetDependency */,
+				EC696A353D147784ADDD7B75 /* PBXTargetDependency */,
 			);
-			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
-			productName = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
-			productReference = 9108A5E35DEE7B40118ABA65 /* UIScrollView_Keyboard.framework */;
+			name = "Pods-UIScrollView-Keyboard_Tests";
+			productName = "Pods-UIScrollView-Keyboard_Tests";
+			productReference = F2C660C6D833F0FDFFF9978D /* Pods_UIScrollView_Keyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E581E26DC147672952CBF1A8 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB48A616834CC1CB412B267 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard" */;
+			buildPhases = (
+				4839963E7CF777688E9B719F /* Sources */,
+				06E43D4DAB03F5C8E4DE0175 /* Frameworks */,
+				9204D70BE3C874869463CE6E /* Resources */,
+				6EB43F5965054307FA02D1E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26EAED946444F63184B15DA /* PBXTargetDependency */,
+			);
+			name = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
+			productName = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
+			productReference = D8E842E078F02F0D7BC3A7BA /* UIScrollView_Keyboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		122859CF1E717614F9BB5747 /* Project object */ = {
+		76B4C3C7D053F0D3F8FF78B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = F6B0EC1132B2F62024F8D7C3 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 0D2B6E2F2A5C4174F24DB868 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A3C9C8B3D64F473D0A27C40F;
-			productRefGroup = C3589A326B9351EF96552045 /* Products */;
+			mainGroup = 7356B8CAFE637547BE25DD3F;
+			productRefGroup = 52BD6D61503998E0F162D837 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E00979751AF51FB4CCF0B52 /* Pods-UIScrollView-Keyboard_Example */,
-				838E83A0C54515099FCD2C14 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */,
-				1FBD1F0608911E0D3CC77736 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */,
-				95AF6B05F14A172650B3849B /* Pods-UIScrollView-Keyboard_Tests */,
-				B4BF727B6CF69AF9F60164CF /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */,
-				A1341D6C3BF2A7D51A93CCAE /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */,
+				1E83DC37835109A3271385C9 /* Pods-UIScrollView-Keyboard_Example */,
+				E581E26DC147672952CBF1A8 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */,
+				14EC5BEDFCA59EC4CA4D27CF /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */,
+				DC6D7C09733090C99CA00231 /* Pods-UIScrollView-Keyboard_Tests */,
+				3796C9E55DB0ABF71E284E38 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */,
+				C035A7ED9B9EC0F4DD926D9F /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62E8E1E7E9348B71FF1455E7 /* Resources */ = {
+		2173BE2182F0B4BDD6DA6C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14992625AC32D0433792030B /* UIScrollView-Keyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726D33E89C0CAAFAEABA5B13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E96D47E05F51C3073A7FB24 /* Resources */ = {
+		9204D70BE3C874869463CE6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC0ECE4F6FB1CBEF38E6023 /* UIScrollView-Keyboard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACCC1352BC7CBB9694C2B7D5 /* Resources */ = {
+		B4245F6ECCA83E68BF6BF323 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B4FFC17704FCDC048DD5A7 /* UIScrollView-Keyboard.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8A0D2F09E8C76512CC925A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0EC2233F2D61F1FAF1555F /* UIScrollView-Keyboard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		408308AEB5F4AB0AA4B436AD /* Sources */ = {
+		2EF9F668EA919EEC599B6A8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01635756C75E90729C83A891 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m in Sources */,
-				DA5B60D6B1F5779E64AAF4BE /* ReplaceMe.m in Sources */,
+				19E1D752E1D377A4D6475CB7 /* Pods-UIScrollView-Keyboard_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FC9F75357E59E3B7EED697E /* Sources */ = {
+		4839963E7CF777688E9B719F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F8DC78C0070E16CB3CAA5 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m in Sources */,
+				D7619A9D73CF43A017742C39 /* UIScrollView+Keyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECBA17D880EB94CF189BB1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7645132275BDC68372904773 /* Sources */ = {
+		B853AE4473CF7CFD3FBFB390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				705EDF0ACD8430A1161A7E24 /* Pods-UIScrollView-Keyboard_Tests-dummy.m in Sources */,
+				DF293C7F325BB8F11D0251D7 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-dummy.m in Sources */,
+				E20A6A9ABCB19496BAEE0AD1 /* UIScrollView+Keyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8463EFBCD51B21E4E157E1FD /* Sources */ = {
+		BA2A69B9C70F9ADC619167B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EDE9FA8F2B417BA87E3348F /* Pods-UIScrollView-Keyboard_Example-dummy.m in Sources */,
+				F654A7413AF65748ED9E5525 /* Pods-UIScrollView-Keyboard_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91549F792142BE53E108BEE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38BF92A767F3A25DEF13C49F /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-dummy.m in Sources */,
-				53C9190099B568DC4F725341 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B50E80EF473D1DF698E575D9 /* Sources */ = {
+		E6197BD70C0FEF16BFB6E716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -558,36 +564,96 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41E51D1401A77158DC7B65DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
-			target = A1341D6C3BF2A7D51A93CCAE /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */;
-			targetProxy = A9062D5E94AE2744F25CCD61 /* PBXContainerItemProxy */;
-		};
-		681BC473F0DAE66579E674C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
-			target = B4BF727B6CF69AF9F60164CF /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */;
-			targetProxy = E2E5B1269D926047C5490841 /* PBXContainerItemProxy */;
-		};
-		996898E45FE14CE5838B7C06 /* PBXTargetDependency */ = {
+		5B22D97CFC44FA2B2A384B15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard";
-			target = 838E83A0C54515099FCD2C14 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */;
-			targetProxy = 1422025D636D084A051CCE1B /* PBXContainerItemProxy */;
+			target = E581E26DC147672952CBF1A8 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard */;
+			targetProxy = FF087503975E67D5BF63A46B /* PBXContainerItemProxy */;
 		};
-		EEC950641ACC2C8CBC180A7B /* PBXTargetDependency */ = {
+		CAC387C42677955D8BCEF3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard";
+			target = C035A7ED9B9EC0F4DD926D9F /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard */;
+			targetProxy = AD79C8F288574815C74438FB /* PBXContainerItemProxy */;
+		};
+		D26EAED946444F63184B15DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard";
-			target = 1FBD1F0608911E0D3CC77736 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */;
-			targetProxy = EECF246B9583A7EB1515DADC /* PBXContainerItemProxy */;
+			target = 14EC5BEDFCA59EC4CA4D27CF /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard */;
+			targetProxy = 43EF2FD6A99E221D10FDBB03 /* PBXContainerItemProxy */;
+		};
+		EC696A353D147784ADDD7B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard";
+			target = 3796C9E55DB0ABF71E284E38 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard */;
+			targetProxy = 93656347F38E90C82D87506F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		064BFE5D6AA0591CDC5E031A /* Release */ = {
+		03D6A8B0FB81E9E1E623509E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
+			baseConfigurationReference = E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "UIScrollView-Keyboard";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0C1E0A0FF08E7DECB17085BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "UIScrollView-Keyboard";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		152EA3350F72FCAE072FB6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA0FB753299C9F848B5D2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -596,12 +662,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = UIScrollView_Keyboard;
 				SDKROOT = iphoneos;
@@ -612,7 +678,20 @@
 			};
 			name = Release;
 		};
-		0B75D5232357EE62C724E979 /* Debug */ = {
+		6495334577B45BED91E79265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "UIScrollView-Keyboard";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71E60A5AFE458C887171A60D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,9 +730,9 @@
 			};
 			name = Debug;
 		};
-		0F9E1672B285251186B45124 /* Release */ = {
+		80A59B2808641C8E3227FAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0540D92A7A1097F152B9425E /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */;
+			baseConfigurationReference = 0F0F52862E07BCE1992A394A /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,16 +741,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests/Pods-UIScrollView-Keyboard_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Pods-UIScrollView-Keyboard_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Tests;
+				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -680,9 +759,9 @@
 			};
 			name = Release;
 		};
-		16C231A19D65CD20D194C69E /* Debug */ = {
+		8EAEC27903AA6D96C98D6D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
+			baseConfigurationReference = 131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -707,9 +786,9 @@
 			};
 			name = Debug;
 		};
-		1E9AE18BA9D045EE6FADF763 /* Release */ = {
+		9D2E3A60879E8685D974E30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
+			baseConfigurationReference = 3B4A1C22216E876EE017962C /* Pods-UIScrollView-Keyboard_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -718,159 +797,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIScrollView_Keyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		35777FB194596B8E87304C3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIScrollView-Keyboard";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3B952D45A409CA5D5BC589EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		50F2E2A368926D544930B520 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D56D5C7A0690A06EBCA0DCF /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Pods-UIScrollView-Keyboard_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5769E1A402AE42DFF303B4A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIScrollView-Keyboard";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8106DFAC0E893242CEA9FEF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UIScrollView_Keyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		928768FC2C1127AB3881A068 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFC77FC5774345D1DC414955 /* Pods-UIScrollView-Keyboard_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Pods-UIScrollView-Keyboard_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests/Pods-UIScrollView-Keyboard_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Example;
+				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -879,22 +815,9 @@
 			};
 			name = Release;
 		};
-		9B5472F8DB1A0DC21EFAB587 /* Debug */ = {
+		B797AE05F1ADCF491D3EFAEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BC9C2AA46DC39F3BB49992 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIScrollView-Keyboard";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9BB6A745A74D5D31168E8444 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67F32B668EEB792EB7EF368 /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
+			baseConfigurationReference = 131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UIScrollView-Keyboard_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -905,9 +828,36 @@
 			};
 			name = Debug;
 		};
-		B8ABB6C2708823837D66AEA0 /* Debug */ = {
+		BB759A354EE0EB34350BE8C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F926294DC158EB64D99DC5E4 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */;
+			baseConfigurationReference = 131614FBD2642497A413593A /* Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIScrollView_Keyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4543A5E9531A97781C9A2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DC87B9FC9CEAC20EED6871 /* Pods-UIScrollView-Keyboard_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -934,73 +884,129 @@
 			};
 			name = Debug;
 		};
+		D22C5888D75F556A0898542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748DE8DD91A8E207F3B81FAA /* Pods-UIScrollView-Keyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example/Pods-UIScrollView-Keyboard_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UIScrollView_Keyboard_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5315F9F6542416294B5D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E403B5E08FF2E888B48A7826 /* Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard/Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIScrollView_Keyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C579C4EF11A6B6093E296D7 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard" */ = {
+		020BD543A18C3E0267F5F96E /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C231A19D65CD20D194C69E /* Debug */,
-				064BFE5D6AA0591CDC5E031A /* Release */,
+				B797AE05F1ADCF491D3EFAEB /* Debug */,
+				6495334577B45BED91E79265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BEA432A46C2397989A41649 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests" */ = {
+		0B069652166DEE77AAE0076E /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8ABB6C2708823837D66AEA0 /* Debug */,
-				0F9E1672B285251186B45124 /* Release */,
+				D22C5888D75F556A0898542D /* Debug */,
+				80A59B2808641C8E3227FAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68A461681AFF24BD1E9407DC /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example" */ = {
+		0D2B6E2F2A5C4174F24DB868 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50F2E2A368926D544930B520 /* Debug */,
-				928768FC2C1127AB3881A068 /* Release */,
+				71E60A5AFE458C887171A60D /* Debug */,
+				152EA3350F72FCAE072FB6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98228E30CBF2E25D12FACA02 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-UIScrollView-Keyboard" */ = {
+		20FE718AB2EA5B77B7937E9A /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BB6A745A74D5D31168E8444 /* Debug */,
-				35777FB194596B8E87304C3E /* Release */,
+				C4543A5E9531A97781C9A2AD /* Debug */,
+				9D2E3A60879E8685D974E30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3272A2E2E8266F281496DFE /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard" */ = {
+		4A41A446DADD173CC856AEAB /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard-UIScrollView-Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B5472F8DB1A0DC21EFAB587 /* Debug */,
-				5769E1A402AE42DFF303B4A0 /* Release */,
+				0C1E0A0FF08E7DECB17085BF /* Debug */,
+				03D6A8B0FB81E9E1E623509E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6B0EC1132B2F62024F8D7C3 /* Build configuration list for PBXProject "Pods" */ = {
+		DAE028C5CD7B84CAECF54AC1 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B75D5232357EE62C724E979 /* Debug */,
-				3B952D45A409CA5D5BC589EB /* Release */,
+				8EAEC27903AA6D96C98D6D67 /* Debug */,
+				BB759A354EE0EB34350BE8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF5628A277080F68758618CC /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard" */ = {
+		FAB48A616834CC1CB412B267 /* Build configuration list for PBXNativeTarget "Pods-UIScrollView-Keyboard_Example-UIScrollView-Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8106DFAC0E893242CEA9FEF6 /* Debug */,
-				1E9AE18BA9D045EE6FADF763 /* Release */,
+				D5315F9F6542416294B5D380 /* Debug */,
+				2BA0FB753299C9F848B5D2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 122859CF1E717614F9BB5747 /* Project object */;
+	rootObject = 76B4C3C7D053F0D3F8FF78B8 /* Project object */;
 }
