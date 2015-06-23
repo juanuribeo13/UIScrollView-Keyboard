@@ -8,12 +8,6 @@
 
 #import "UIScrollView+Keyboard.h"
 
-@interface UIScrollView ()
-
-@property (strong, nonatomic) UITapGestureRecognizer *keyboardTapGesture;
-
-@end
-
 @implementation UIScrollView (Keyboard)
 
 #pragma mark - Configuration
