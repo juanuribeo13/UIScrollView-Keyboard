@@ -1,0 +1,6 @@
+framework module UIScrollView_Keyboard {
+  umbrella header "Pods-UIScrollView-Keyboard_Tests-UIScrollView-Keyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
