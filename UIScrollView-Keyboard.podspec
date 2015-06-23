@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "UIScrollView-Keyboard"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UIScrollView-Keyboard."
+  s.summary          = "A UIScrollView category to prevent the keyboard from hidding your view content."
   s.description      = <<-DESC
-                       An optional longer description of UIScrollView-Keyboard
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       UIScrollView-Keyboard is an UIScrollView category that helps you in an easy way to handle
+                       when the keyboard appears and dissapears so it doesn't hide the contents on your view.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UIScrollView-Keyboard"
+  s.homepage         = "https://github.com/juanuribeo13/UIScrollView-Keyboard"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Juan Uribe" => "juanuribeo13@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UIScrollView-Keyboard.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/juanuribeo13/UIScrollView-Keyboard.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
